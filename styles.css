@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-	--bg-color: rgb(38, 38, 38);
+	--bg-color: rgb(38, 38, 38); 
 	--bg-gray-light: rgb(225, 225, 225);
 	--footer-color: rgb(26, 26, 26);
 	--text-color: rgb(183, 183, 183);
@@ -48,11 +48,8 @@ a {
 	padding: 1rem;
 }
 
-#header .navbar .nav-link:not(:last-child) {
+#header .navbar .nav-link {
 	margin-right: 1rem;
-}
-
-#header .navbar .nav-text {
 	color: var(--text-color);
 	text-transform: uppercase;
 	letter-spacing: 2px;
